@@ -10,6 +10,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	_ "github.com/BishopMaple/coverport-demo/internal/coverage" // coverport: coverage instrumentation
 )
 
 func main() {
